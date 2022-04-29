@@ -37,7 +37,7 @@ void applyForce(Vector2D *force){
 /*void checkWalls() {
   if(pos->getX() > WIDTH){
       pos->setX(WIDTH);
-      vel->setX(vel->getX() *= -1);
+      vel->setX(vel->getX() *= (-1));
     }else if(pos->getX() < 0){
       pos->setX(0);
       pos->setX(pos->getX() *= -1);
