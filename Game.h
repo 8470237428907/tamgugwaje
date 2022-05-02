@@ -1,10 +1,15 @@
 #pragma once
-
+#define _VS
+#ifdef _VS
+#include "SDL.h"
+#include "SDL2_gfxPrimitives.h"
+#include "SDL_image.h"
+#else
 #include "usr/include/SDL2/SDL.h"
 #include "usr/include/SDL2/SDL2_gfxPrimitives.h"
 #include "usr/include/SDL2/SDL_image.h"
-
 #include <vector>
+#endif
 
 
 class Walker;
